@@ -3,5 +3,7 @@
     <pages>
         <page name='Frquency Count Method'/>
         <page name='Untitled Page'/>
+        <page name='Formulae'/>
+        <page name='Analysis of if and while loop'/>
     </pages>
 </playground>
