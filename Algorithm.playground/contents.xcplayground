@@ -5,5 +5,7 @@
         <page name='Untitled Page'/>
         <page name='Formulae'/>
         <page name='Analysis of if and while loop'/>
+        <page name='Types of time function'/>
+        <page name='Asymptotic Notation'/>
     </pages>
 </playground>

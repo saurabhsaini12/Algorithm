@@ -179,7 +179,38 @@ the same for loop for while loop is
  
  so minimum time complexity for this could be min O(1) best case where ex m and n is 1
  max time complexity could be max O(n)
+ 
+ 
  */
 
+
+/*
+ if 'if' is there
+ 
+ algorithm Test(n)
+ {
+ if (n<5) {
+  printf("%d",n)           ---- 1
+ }else{
+ for (i=0;i<n;i++){         ------ n+1
+ {
+ printf("%d",i)             ------ n
+ }
+ }
+ }
+ 
+ 
+ Best case time as O(1)
+ worst case time as O(n)
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ */
 
 
