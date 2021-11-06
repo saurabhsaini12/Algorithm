@@ -133,3 +133,55 @@
  θ (n^2)   bcos n^2 is on both the side and common polynomial 
  
  */
+
+/*
+ f(n) = n^2 logn + n
+ 
+ for this we need to find out the average case
+ 
+ ie c1* g(n) <= f(n) <= c2* g(n)
+ 
+ 
+ n^2 logn <= n^2 logn + n <= 10* n^2 logn
+ 
+ θ (n^2 logn)
+ 
+ big O is  n^2 logn
+ big omega is n^2 logn
+ 
+ these both will be same because we have average case in place
+ */
+
+/*
+ f(n) = n!
+ = n * (n-1) * (n-2)....3*2*1
+ 
+ for this we need to find out the average case
+ 
+ ie c1* g(n) <= f(n) <= c2* g(n)
+ 
+ 1*1*1....*1 <= n * (n-1) * (n-2)....3*2*1 <= n*n*n....n
+ 
+ 1 <= n!<= n^n
+ 
+ 
+ so in this there is one issue
+ there polynomial is not common
+ 
+ both sides power is not same so we cannot take θ (average case)
+ 
+ 
+ to solve this we take log of the f(n)
+ 
+ f(n) = log n!
+ 
+ log(1*1*1....*1) <=log (n * (n-1) * (n-2)....3*2*1) <= log( n*n*n....n)
+ 
+ 1 <= log n! <= log n^n
+
+ 
+ O     big O  n^n  or  O(nlogn)
+ 
+ Ω     big Omega    Ω (1)
+ 
+ */

@@ -2,10 +2,11 @@
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Frquency Count Method'/>
-        <page name='Untitled Page'/>
+        <page name='find sum'/>
         <page name='Formulae'/>
         <page name='Analysis of if and while loop'/>
         <page name='Types of time function'/>
         <page name='Asymptotic Notation'/>
+        <page name='Properties of Asymptotic Notations'/>
     </pages>
 </playground>
