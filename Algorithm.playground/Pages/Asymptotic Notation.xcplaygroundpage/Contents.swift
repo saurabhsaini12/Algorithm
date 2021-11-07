@@ -4,7 +4,7 @@
  Asymptotic Notation
  
  O     big O           ---   upper bound
- Ω     big Omega       ---   lower bound
+ Ω     Omega           ---   lower bound
  θ     theta           ---   average bound
  */
 /*

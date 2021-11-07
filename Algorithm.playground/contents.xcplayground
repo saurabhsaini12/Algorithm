@@ -8,5 +8,6 @@
         <page name='Types of time function'/>
         <page name='Asymptotic Notation'/>
         <page name='Properties of Asymptotic Notations'/>
+        <page name='Comparision Of function'/>
     </pages>
 </playground>
